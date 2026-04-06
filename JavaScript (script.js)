@@ -1,8 +1,0 @@
-function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
-
-function submitForm() {
-    document.getElementById("message").innerText = "Message sent successfully!";
-    return false; // prevent actual form submission
-}
